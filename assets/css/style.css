@@ -102,31 +102,41 @@ p {
 
 /* start work section */
 
-
-#big {
-    width: 30%;
-    border: 4px solid gray;
-}
-
-.screenshot img{
+.screenshot{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-evenly;
     margin: auto;
-    width: 20%;
+    width: 80%;
     height: auto;
-    max-width: 40%;
-    padding: 20px;
+    max-width: 100%;
+    padding: 0px;
+    
     
    
 }
 
-.screenshot {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}
+
 
 #js {
-    width: 200px;
+    height: auto;
+    width: 28%;
+    border: 2px solid black;
+    margin: 20px 20px 20px 20px;
+}
+
+#refactor {
+    height: auto;
+    width: 57%;
+    border: 2px solid black;
+    margin: 20px 0px 20px 20px;
+}
+
+#big {
+    height: auto;
+    width: 90%;
+    border: 2px solid black;
 }
 
 /* contact section start */
@@ -140,6 +150,7 @@ p {
     margin: auto;
     text-align: center;
     font-weight: lighter;
+    font-size: 30px;
 }
 
 .reach-out a{
@@ -147,11 +158,114 @@ p {
     margin: auto;
     text-align: center;
     font-weight: lighter;
+    font-size: 20px;
+    padding-bottom: 20px;
 
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  /* this will be applied on any screen smaller than 980px */
+  @media screen and (max-width: 1024px){
+    .hero {
+        background-image: url('./images/tree.jpg');
+        height: auto;
+        width: 100%;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+    .hero h1 {
+        height: auto;
+        width: 100%;
+        
+    }
+
+    header nav ul li a{
+        font-size: 40px;
+    
+    }
+
+    .reach-out h3 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 40px;
+    }
+    
+    .reach-out a{
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 40px;
+    
+    }
+
+
+
+
+  }
+    
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px){
+
+    .hero {
+        background-image: url('./images/tree.jpg');
+        height: auto;
+        width: 100%;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+    header nav ul li a{
+        font-size: 35px;
+    
+    }
+
+    .reach-out h3 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 40px;
+    }
+    
+    .reach-out a{
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 40px;
+    
+    }
+
+}
+
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+
+    h2{
+        font-size: 40px;
+    }
+    
+    .hero {
+        background-image: url('./images/tree.jpg');
+        height: auto;
+        width: 100%;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
     .hero h1 {
         font-size: 40px;
         height: auto;
@@ -172,7 +286,28 @@ p {
        font-size: 18px;
    }
 
-   
+   .reach-out h3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.reach-out a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
 
 
 
