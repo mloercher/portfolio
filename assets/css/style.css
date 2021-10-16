@@ -125,8 +125,8 @@ p {
 }
 
 #refactor {
-    height: auto;
-    width: 70%;
+    height: 80%;
+    width: 100%;
     border: 2px solid black;
     margin: 20px 0px 20px 0px;
 }
@@ -203,6 +203,23 @@ p {
     
     }
 
+    #js {
+        height: auto;
+        width: 80%;
+        border: 2px solid black;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 85px; 
+        margin-right: 0; 
+    }
+
+    #refactor {
+        height: auto;
+        width: 80%;
+        border: 2px solid black;    
+        margin-left: 85px;   
+        }
+
 
 
 
@@ -243,6 +260,25 @@ p {
         font-size: 40px;
     
     }
+
+    #js {
+        height: auto;
+        width: 80%;
+        border: 2px solid black;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 60px;
+        margin-right: 0; 
+    }
+
+    #refactor {
+    height: auto;
+    width: 80%;
+    border: 2px solid black;  
+    margin-left: 60px;     
+    }
+
+    
 
 }
 
@@ -305,7 +341,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
-    justify-content: center;
+    justify-content:space-around;
     margin: auto;
     width: 100%;
     height: auto;
@@ -316,11 +352,11 @@ p {
 
     #js {
     height: auto;
-    width: 28%;
+    width: 80%;
     border: 2px solid black;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
-    margin-left: 0;
+    margin-left: 5px;
     margin-right: 0; 
     
     }
@@ -329,10 +365,9 @@ p {
     height: auto;
     width: 80%;
     border: 2px solid black;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0;
+    margin-left: 40px;
+   
     
     }
 
