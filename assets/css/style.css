@@ -112,6 +112,35 @@ p {
     height: auto;
     max-width: 100%;
     padding: 0px;
+    position: relative;
+
+}
+
+#p1{
+    position: absolute;
+    background-color:black;
+    color: whitesmoke;
+    bottom: 70%;
+}
+
+#p2 {
+    position: absolute;
+    background-color:black;
+    color: whitesmoke;
+    bottom: 38%;
+}
+
+#p3 {
+    position: absolute;
+    background-color:black;
+    color: whitesmoke;
+    bottom: 10%;
+}
+.screenshot p a{
+    position: absolute;
+    
+    color: white;
+    font-size: 30px;
 
 }
 
@@ -134,6 +163,15 @@ p {
     height: auto;
     width: 100%;
     border: 2px solid black;
+    padding-top: 0;
+    
+
+}
+
+.tex-box {
+    position: absolute;
+    background-color: black;
+
 }
 
 /* contact section start */
