@@ -13,5 +13,9 @@
 ![contact](assets/css/images/contact.png)
 
 ## Responsive design
-![responsive-layout](assets/css/images/Screen Shot 2021-10-17 at 3.18.06 PM.png)
+![responsive-layout](assets/css/images/responsive.png)
 #### Website has been formatted for correct sizing accross popular screen sizes. Design of site is responsive. 
+
+Live URL: https://mloercher.github.io/portfolio/
+
+Github URL: https://github.com/mloercher/portfolio
