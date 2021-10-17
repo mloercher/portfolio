@@ -444,21 +444,21 @@ p {
     
     #p1{
         font-size: 20px;
-        max-height: 20px;
+        max-height: 25px;
 
 
     }
 
     #p2{
         font-size: 18px;
-        max-height: 20px;
+        max-height: 25px;
     
     }
 
     #p3{
         font-size: 20px;
         max-width: 70%;
-        max-height: 47px;
+        max-height: 50px;
     }
 }
 
