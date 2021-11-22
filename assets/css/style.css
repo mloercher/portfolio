@@ -5,15 +5,40 @@
     box-sizing: border-box;
 }
 
-h2 {
-    font-size: 80px;
+.reach-out h2 {
+    font-family: 'Roboto Mono', monospace;
     font-weight: lighter;
-    padding-top: 30px;
+    padding-top: 20px;
     display: block;
     text-align: center;
+    font-size: 50px;
+}
+
+.container h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+.about h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: 50px;
 }
 
 
+.col-6 h3 {
+    padding: 10px 0 0 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    font-size: 15px;
+}
 p {
     padding-bottom: 20px;
     font-size: 40px;
@@ -179,11 +204,14 @@ header nav ul li a {
     
 
 }
-/* contact section start */
 
-.reach-out h2 {
-    border-top: 1px solid; 
+.col-6 {
+    text-align: center;
+    font-weight: bold;
 }
+
+
+/* contact section start */
 
 .reach-out h3 {
     display: block;
@@ -202,6 +230,7 @@ header nav ul li a {
     padding-bottom: 20px;
 
 }
+
 /* start of footer */
 
 footer p {
