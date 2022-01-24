@@ -1,83 +1,246 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif; 
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
 }
 
 .reach-out h2 {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: lighter;
-    padding-top: 20px;
-    display: block;
-    text-align: center;
-    font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 50px;
 }
 
 .container h2 {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: lighter;
-    padding-top: 20px;
-    display: block;
-    text-align: center;
-    font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 50px;
 }
 
 .about h2 {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: lighter;
-    padding-top: 20px;
-    display: block;
-    text-align: center;
-    font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 50px;
 }
-
 
 .col-6 h3 {
-    padding: 10px 0 0 0;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: lighter;
-    font-size: 15px;
+  padding: 10px 0 0 0;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  font-size: 15px;
 }
 p {
-    padding-bottom: 20px;
-    font-size: 40px;
-    font-weight: lighter;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: lighter;
 }
 /* end of page-wide selectors */
 
 /* start header */
 header {
-    position: sticky; top:0;
-    z-index: 9999;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 header nav ul {
-    display: flex;
-    flex: 1;
-    justify-content:space-evenly;
-    background: black;
-    flex-wrap: wrap;
-    border-bottom: 1px solid;
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  background: black;
+  flex-wrap: wrap;
+  border-bottom: 1px solid;
+  margin: 0%;
 }
 
-header nav ul li{
-    list-style: none;
-    font-size: 25px;
-    font-weight: lighter;
+header nav ul li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 header nav ul li a {
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    font-weight: lighter;
-    
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-weight: lighter;
 }
 
 /* start hero */
 .hero {
-    background-image: url('./images/tree.jpg');
+  background-image: url("./images/tree.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.hero h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  font-weight: lighter;
+  font-size: 90px;
+  color: wheat;
+  text-align: center;
+  text-shadow: 10px 10px 4px black;
+}
+
+/* start about section */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  background: whitesmoke;
+  border: 1px solid black;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.about img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: auto;
+  max-width: 40%;
+}
+
+.about p {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+/* start work section */
+
+.screenshot {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+  position: relative;
+}
+
+#p1 {
+  font-size: 35px;
+  position: absolute;
+  background-color: black;
+  color: whitesmoke;
+  bottom: 70%;
+  max-height: 45px;
+}
+
+#p2 {
+  font-size: 30px;
+  position: absolute;
+  background-color: black;
+  color: whitesmoke;
+  bottom: 38%;
+  max-height: 38px;
+}
+
+#p3 {
+  font-size: 30px;
+  position: absolute;
+  background-color: black;
+  color: whitesmoke;
+  bottom: 10%;
+  max-height: 37px;
+}
+.screenshot p a {
+  position: absolute;
+
+  color: white;
+  font-size: 30px;
+}
+
+#js {
+  height: auto;
+  width: 80%;
+  border: 2px solid black;
+  margin-top: 0px;
+  margin: 0px 0px 20px 100px;
+}
+
+#refactor {
+  height: auto;
+  width: 80%;
+  border: 2px solid black;
+  margin: 20px 0px 20px 100px;
+}
+
+#big {
+  height: auto;
+  width: 100%;
+  border: 2px solid black;
+  padding-top: 0;
+}
+
+.col-6 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* contact section start */
+
+.reach-out h3 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.reach-out a {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* start of footer */
+
+footer p {
+  font-size: small;
+  background: black;
+  color: whitesmoke;
+  margin-bottom: 0%;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* this will be applied on any screen smaller than 980px */
+@media screen and (max-width: 980px) {
+  .hero {
+    background-image: url("./images/tree.jpg");
     height: auto;
     width: 100%;
     background-position: center;
@@ -85,417 +248,233 @@ header nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    
-}
+  }
 
-.hero h1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
+  .hero h1 {
+    height: auto;
     width: 100%;
-    position: absolute;
-    top:50%;
-    font-weight: lighter;
-    font-size: 90px;
-    color: wheat;
-    text-align: center;
-    text-shadow: 10px 10px 4px black;
+  }
 
-}
+  header nav ul li a {
+    font-size: 40px;
+  }
 
-/* start about section */
-
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    background: whitesmoke;
-    border: 1px solid black;
-    text-align: center;
-    border-bottom: 1px solid;
-}
-
-.about img{
+  .reach-out h3 {
     display: block;
     margin: auto;
-    width: 40%;
-    height: auto;
-    max-width: 40%;
-}
-
-.about p{
-    padding-bottom: 20px;
-    font-size: 40px;
+    text-align: center;
     font-weight: lighter;
-}
+    font-size: 40px;
+  }
 
-/* start work section */
-
-.screenshot{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 50%;
-    justify-content: center;
+  .reach-out a {
+    display: block;
     margin: auto;
-    width: 80%;
-    height: auto;
-    max-width: 100%;
-    padding: 0px;
-    position: relative;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+  }
 
-}
-
-#p1{
-    font-size: 35px;
-    position: absolute;
-    background-color:black;
-    color: whitesmoke;
-    bottom: 70%;
-    max-height: 45px;
-}
-
-#p2 {
-    font-size: 30px;
-    position: absolute;
-    background-color:black;
-    color: whitesmoke;
-    bottom: 38%;
-    max-height: 38px;
-}
-
-#p3 {
-    font-size: 30px;
-    position: absolute;
-    background-color:black;
-    color: whitesmoke;
-    bottom: 10%;
-    max-height: 37px;
-}
-.screenshot p a{
-    position: absolute;
-    
-    color: white;
-    font-size: 30px;
-
-}
-
-#js {
+  #js {
     height: auto;
     width: 80%;
     border: 2px solid black;
     margin-top: 0px;
-    margin: 0px 0px 20px 100px;
-}
+    margin-bottom: 20px;
+    margin-left: 85px;
+    margin-right: 0;
+  }
 
-#refactor {
+  #refactor {
     height: auto;
     width: 80%;
     border: 2px solid black;
-    margin: 20px 0px 20px 100px;
+    margin-left: 85px;
+  }
 }
 
-#big {
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url("./images/tree.jpg");
     height: auto;
     width: 100%;
-    border: 2px solid black;
-    padding-top: 0;
-    
-
-}
-
-.col-6 {
-    text-align: center;
-    font-weight: bold;
-}
-
-
-/* contact section start */
-
-.reach-out h3 {
-    display: block;
-    margin: auto;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 30px;
-}
-
-.reach-out a{
-    display: block;
-    margin: auto;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 20px;
-    padding-bottom: 20px;
-
-}
-
-/* start of footer */
-
-footer p {
-    font-size: small;
-    background: black;
-    color: whitesmoke;
-}
-
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  /* this will be applied on any screen smaller than 980px */
-  @media screen and (max-width: 980px){
-    .hero {
-        background-image: url('./images/tree.jpg');
-        height: auto;
-        width: 100%;
-        background-position: center;
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 100vh;
-    }
-
-    .hero h1 {
-        height: auto;
-        width: 100%;
-        
-    }
-
-    header nav ul li a{
-        font-size: 40px;
-    
-    }
-
-    .reach-out h3 {
-        display: block;
-        margin: auto;
-        text-align: center;
-        font-weight: lighter;
-        font-size: 40px;
-    }
-    
-    .reach-out a{
-        display: block;
-        margin: auto;
-        text-align: center;
-        font-weight: lighter;
-        font-size: 40px;
-    
-    }
-
-    #js {
-        height: auto;
-        width: 80%;
-        border: 2px solid black;
-        margin-top: 0px;
-        margin-bottom: 20px;
-        margin-left: 85px; 
-        margin-right: 0; 
-    }
-
-    #refactor {
-        height: auto;
-        width: 80%;
-        border: 2px solid black;    
-        margin-left: 85px;   
-        }
-
-
-
-
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
   }
-    
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px){
 
-    .hero {
-        background-image: url('./images/tree.jpg');
-        height: auto;
-        width: 100%;
-        background-position: center;
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 100vh;
-    }
+  header nav ul li a {
+    font-size: 35px;
+  }
 
-    header nav ul li a{
-        font-size: 35px;
-    
-    }
+  .reach-out h3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+  }
 
-    .reach-out h3 {
-        display: block;
-        margin: auto;
-        text-align: center;
-        font-weight: lighter;
-        font-size: 40px;
-    }
-    
-    .reach-out a{
-        display: block;
-        margin: auto;
-        text-align: center;
-        font-weight: lighter;
-        font-size: 40px;
-    
-    }
+  .reach-out a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+  }
 
-    #js {
-        height: auto;
-        width: 80%;
-        border: 2px solid black;
-        margin-top: 0px;
-        margin-bottom: 20px;
-        margin-left: 60px;
-        margin-right: 0; 
-    }
-
-    #refactor {
+  #js{
     height: auto;
     width: 80%;
-    border: 2px solid black;  
-    margin-left: 60px;     
-    }
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 0;
+  }
 
-    #p1{
-        font-size: 30px;
-        max-height: 38px;
-    }
+  #refactor {
+    height: auto;
+    width: 80%;
+    border: 2px solid black;
+    margin-left: 60px;
+  }
 
-    #p2{
-        font-size: 25px;
-        max-height: 28px;
-    
-    }
+  #p1 {
+    font-size: 30px;
+    max-height: 38px;
+  }
 
-    #p3{
-        font-size:20px;
-        max-width: 820px;
-        max-height: 28px;
-    }
+  #p2 {
+    font-size: 25px;
+    max-height: 28px;
+  }
 
-    
-
+  #p3 {
+    font-size: 20px;
+    max-width: 820px;
+    max-height: 28px;
+  }
 }
-
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+  
+    h2 {
+    font-size: 40px;
+  }
 
-    h2{
-        font-size: 40px;
-    }
-    
-    .hero {
-        background-image: url('./images/tree.jpg');
-        height: auto;
-        width: 100%;
-        background-position: center;
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 100vh;
-    }
-    .hero h1 {
-        font-size: 40px;
-        height: auto;
-        width: 100%;
-    }
+  .hero {
+    background-image: url("./images/tree.jpg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .hero h1 {
+    font-size: 40px;
+    height: auto;
+    width: 100%;
+  }
 
-    .hero img {
-        width: 100%;
-        height:auto;
-        max-height: 100vh;
-    }
+  .hero img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+  }
 
-   .about p{
-       font-size: 20px;
-   }
+  .about p {
+    font-size: 20px;
+  }
 
-   header nav ul li a{
-       font-size: 18px;
-   }
+  header nav ul li a {
+    font-size: 18px;
+  }
 
-   .reach-out h3 {
+  .reach-out h3 {
     display: block;
     margin: auto;
     text-align: center;
     font-weight: lighter;
     font-size: 20px;
-    }
+  }
 
-    .reach-out a{
+  .reach-out a {
     display: block;
     margin: auto;
     text-align: center;
     font-weight: lighter;
     font-size: 20px;
+  }
 
-    }
-
-    .screenshot{
+  .screenshot {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: auto;
     width: 100%;
     height: auto;
     max-width: 100%;
     padding: 0px;
+  }
 
-    }
-
-    #js {
+  #js {
     height: auto;
     width: 80%;
     border: 2px solid black;
     margin-top: 0px;
     margin-bottom: 10px;
     margin-left: 42px;
-    margin-right: 0; 
-    
-    }
+    margin-right: 0;
+  }
 
-    #refactor {
+  #refactor {
     height: auto;
     width: 80%;
     border: 2px solid black;
     margin: 0;
     margin-left: 42px;
-   
-    
-    }
+  }
 
-    #big {
+  #big {
     height: auto;
-    width: 90%;
+    width: 100%;
+    padding: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
     border: 2px solid black;
-    margin: 0px 0px 0px 22px;
-    }
-    
-    #p1{
-        font-size: 20px;
-        max-height: 30px;
+    /* margin: 0px 0px 0px 22px; */
+  }
 
+  #p1 {
+    font-size: 20px;
+    max-height: 30px;
+  }
 
-    }
+  #p2 {
+    font-size: 18px;
+    max-height: 30px;
+  }
 
-    #p2{
-        font-size: 18px;
-        max-height: 30px;
-    
-    }
-
-    #p3{
-        font-size: 20px;
-        max-width: 65%;
-        max-height: 65px;
-    }
+  #p3 {
+    font-size: 20px;
+    max-width: 65%;
+    max-height: 65px;
+  }
 }
 
 
-
-
-
-
-
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
